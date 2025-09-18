@@ -1,6 +1,6 @@
 {
   "name": "@sam778-del/alluradirect",
-  "version": "8.0.0",
+  "version": "9.0.0",
   "source": "src/index.ts",
   "main": "./lib/main.js",
   "module": "./lib/module.js",
@@ -68,7 +68,7 @@
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
-  }, 
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/superpower725/react.git"
