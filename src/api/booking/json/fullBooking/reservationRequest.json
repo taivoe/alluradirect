@@ -1,0 +1,430 @@
+{
+  "GUEST_REQUESTS": "",
+  "SURCHARGES": {
+    "TAXES_TOTALS": [],
+    "LIST": {},
+    "NET": "0.00",
+    "GROSS": "0.00",
+    "TAXES_TOTAL": "0.00"
+  },
+  "TAX": {
+    "RATE_TOTAL": 16,
+    "BOOKING": [
+      {
+        "IS_PASS_THROUGH_TO_OWNER": false,
+        "NAME": "PST",
+        "ID": 2,
+        "RATE": 8,
+        "AMOUNT": "222.40"
+      },
+      {
+        "IS_PASS_THROUGH_TO_OWNER": false,
+        "NAME": "MRDT",
+        "ID": 19,
+        "RATE": 3,
+        "AMOUNT": "83.40"
+      },
+      {
+        "IS_PASS_THROUGH_TO_OWNER": true,
+        "NAME": "GST",
+        "ID": 1,
+        "RATE": 5,
+        "AMOUNT": "139.00"
+      }
+    ],
+    "TOTAL": "444.80",
+    "PERCENTAGES": "8% PST, 3% MRDT, 5% GST",
+    "TOTALS": [
+      {
+        "IS_PASS_THROUGH_TO_OWNER": false,
+        "NAME": "PST",
+        "ID": 2,
+        "RATE": 8,
+        "AMOUNT": "222.40"
+      },
+      {
+        "IS_PASS_THROUGH_TO_OWNER": false,
+        "NAME": "MRDT",
+        "ID": 19,
+        "RATE": 3,
+        "AMOUNT": "83.40"
+      },
+      {
+        "IS_PASS_THROUGH_TO_OWNER": true,
+        "NAME": "GST",
+        "ID": 1,
+        "RATE": 5,
+        "AMOUNT": "139.00"
+      }
+    ]
+  },
+  "GUEST_COMMENT": "",
+  "TOTALS_PAID": {
+    "REVENUE_NET": "0.00",
+    "OWNER_PASS_THROUGH_TAXES": [],
+    "BANK_DEPOSIT": "0.00",
+    "TAX": "0.00",
+    "ACCOMMODATION_NET": "0.00",
+    "ACCOMMODATION_TAXES": [],
+    "COMMISSION": "0.00",
+    "CREDIT_CARD_FEE": "0.00",
+    "SURCHARGE": {
+      "TAXES": [],
+      "NET": "0.00"
+    },
+    "COMMISSION_PARTNER": "0.00",
+    "NR6": "0.00",
+    "PROPERTY_MANAGER_SERVICE_FEE": {
+      "TAXES": [
+        {
+          "IS_PASS_THROUGH_TO_OWNER": false,
+          "NAME": "GST",
+          "ID": 1,
+          "RATE": 5,
+          "AMOUNT": "0.00"
+        },
+        {
+          "IS_PASS_THROUGH_TO_OWNER": false,
+          "NAME": "PST",
+          "ID": 2,
+          "RATE": 8,
+          "AMOUNT": "0.00"
+        },
+        {
+          "IS_PASS_THROUGH_TO_OWNER": false,
+          "NAME": "MRDT",
+          "ID": 19,
+          "RATE": 3,
+          "AMOUNT": "0.00"
+        }
+      ],
+      "NET": "0.00",
+      "TOTAL": "0.00",
+      "IS_FEE_ON_SUBTOTAL_TO_OWNER": false
+    },
+    "DAMAGE_DEPOSIT": "0.00"
+  },
+  "REVIEW": {},
+  "PROPERTY": {
+    "IS_ENABLED": 1,
+    "SURCHARGES": {
+      "PETS": {
+        "IS_ENABLED": false,
+        "NAME": "Pets",
+        "ID": 2,
+        "AMOUNT": "0.00"
+      },
+      "CLEANING": {
+        "IS_ENABLED": false,
+        "NAME": "Cleaning",
+        "ID": 1,
+        "AMOUNT": "0.00"
+      }
+    },
+    "MAX_GUESTS": 8,
+    "DIRECT_VACATIONS": {
+      "IS_ACTIVE": true,
+      "URL": "https://WhistlerSkiDream.directvacations.net/",
+      "LOGO": "https://WhistlerSkiDream.directvacations.net/images/dvlogos/220-logo.jpg",
+      "NAME": "WhistlerSkiDream",
+      "ID": 2037
+    },
+    "THUMBNAIL_URL": "https://staging.alluradirect.com/images/adi/property/220/ADIP22012_T.JPG?129693501327600",
+    "ACCESS_TO_UNIT": {
+      "STANDARD_CODE": "",
+      "CODE": {
+        "NAME": "Unique Per Guest",
+        "ID": 2
+      },
+      "TYPE": {
+        "NAME": "Access Code",
+        "ID": 1
+      },
+      "METHOD": {
+        "NAME": "Email",
+        "ID": 2
+      }
+    },
+    "CODES": {
+      "FRONT_DOOR_CODE": "",
+      "DEVELOPMENT_POOL_CODE": "",
+      "DEVELOPMENT_GYM_CODE": "",
+      "DEVELOPMENT_HOT_TUB_CODE": "",
+      "DEVELOPMENT_STEAM_ROOM_CODE": "",
+      "PROPERTY_ID": 220,
+      "SKI_LOCKER_CODE": "",
+      "DEVELOPMENT_DOOR_CODE": "",
+      "INTERNET_NETWORK_NAME": "",
+      "BIKE_LOCKER_CODE": "",
+      "PHONE_NUMBER": "",
+      "INTERNET_PASSWORD": "",
+      "DEVELOPMENT_SAUNA_CODE": "",
+      "ID": 0,
+      "GAMES_REC_ROOM_CODE": "",
+      "GARBAGE_RECYCLING_CODE": "",
+      "GARAGE_DOOR_CODE": "",
+      "DATE_LAST_UPDATED": ""
+    },
+    "SQUARE_FEET": 1508,
+    "STYLE": "Townhouse",
+    "URL": "https://staging.alluradirect.com/220",
+    "NAME": "Montebello - #3",
+    "ID": 220,
+    "RULES": {
+      "MAX_GUESTS": 8,
+      "CHECK_OUT": "11:00",
+      "MIN_AGE_TO_BOOK": 25,
+      "QUIET_TIME": "22:00",
+      "ADVANCED_BOOKING": {
+        "NAME": "2 Days",
+        "ID": 2
+      },
+      "ID": 213,
+      "CHECK_IN": "16:00"
+    },
+    "ADDRESS": {
+      "RESORT": "Whistler",
+      "LONGITUDE": -122.955284,
+      "AREA": "Whistler Village North",
+      "COUNTRY": "Canada",
+      "AREA_ID": 2,
+      "POSTAL": "V8E 0Z4",
+      "COUNTRY_CODE": "CA",
+      "STREET_NAME": "Settebello Place",
+      "DEVELOPMENT_ID": 66,
+      "LATITUDE": 50.123714,
+      "REGION_ID": 1,
+      "ID": 220,
+      "UNIT": "3",
+      "REGION": "British Columbia",
+      "CITY": "Whistler",
+      "STREET_NUMBER": "4751",
+      "COUNTRY_ID": 1,
+      "DEVELOPMENT": "Montebello",
+      "RESORT_ID": 1
+    },
+    "SIZE_CATEGORY": "3 Bedroom"
+  },
+  "REFERENCE": "220-B-512",
+  "STATUS": {
+    "NAME": "Payment Due Pending Acceptance By Owner",
+    "ID": 1
+  },
+  "FLAGS": {
+    "IS_EDITABLE": true,
+    "IS_DIRECT_VACATIONS": false,
+    "IS_PAST_DUE": false,
+    "IS_ALLURA_BOOKING": true,
+    "IS_BLOCK_OFF": false
+  },
+  "CONTACT_TRACING": [
+    {
+      "FIRST_NAME": "kerry",
+      "LAST_NAME": "wallace",
+      "ID": 20047,
+      "PHONE": "16048989895",
+      "IS_CHILD": false,
+      "EMAIL": "kerrywallace@telus.net"
+    }
+  ],
+  "STATUSES": [
+    {
+      "DATE": "2021-10-03",
+      "IS_DONE": false,
+      "LABEL": "Deposit Due"
+    },
+    {
+      "DATE": "2021-12-21",
+      "IS_DONE": false,
+      "LABEL": "Balance Due"
+    },
+    {
+      "DATE": "2022-02-04",
+      "IS_DONE": false,
+      "LABEL": "Arrival Date"
+    },
+    {
+      "DATE": "2022-02-08",
+      "IS_DONE": false,
+      "LABEL": "Departure Date"
+    },
+    {
+      "DATE": "--",
+      "IS_DONE": false,
+      "LABEL": "No Review"
+    }
+  ],
+  "TOTAL": "3434.42",
+  "DATES": {
+    "NEXT_PAYMENT": "2021-10-03",
+    "ARRIVAL": "2022-02-04",
+    "CHECK_IN_SENT": "",
+    "DEPARTURE": "2022-02-08",
+    "PROPERTY_GUIDEBOOK_SEND": "2022-01-28",
+    "BOOKING": "2021-10-01"
+  },
+  "PARTY_SIZE": {
+    "ADULTS": 1,
+    "KIDS": 0,
+    "MAX": 8
+  },
+  "TRANSACTIONS": [],
+  "CUSTOM_MESSAGE": {
+    "MESSAGE": "",
+    "ENTRY_CODE": ""
+  },
+  "BLOCK_OFF_REASON": "",
+  "INQUIRIES": [],
+  "SOURCE": "alluraDirect",
+  "NIGHTS": 4,
+  "PURPOSE": "None",
+  "PROPERTY_RULES": {
+    "CHECK_OUT_TIME": "11:00",
+    "MAX_GUESTS": 8,
+    "QUIET_TIME": "22:00",
+    "CHECK_IN_TIME": "16:00"
+  },
+  "NOTES_OWNER": "",
+  "SERVICE_FEE": {
+    "TAX": "28.92",
+    "TAXES": [
+      {
+        "IS_PASS_THROUGH_TO_OWNER": false,
+        "NAME": "GST",
+        "ID": 1,
+        "RATE": 5,
+        "AMOUNT": "9.04"
+      },
+      {
+        "IS_PASS_THROUGH_TO_OWNER": false,
+        "NAME": "PST",
+        "ID": 2,
+        "RATE": 8,
+        "AMOUNT": "14.46"
+      },
+      {
+        "IS_PASS_THROUGH_TO_OWNER": false,
+        "NAME": "MRDT",
+        "ID": 19,
+        "RATE": 3,
+        "AMOUNT": "5.42"
+      }
+    ],
+    "TAXES_STRING": "5% GST, 8% PST, 3% MRDT",
+    "FEE": "180.70",
+    "NAME": "Booking Service Fee",
+    "ID": 35884,
+    "TOTAL": "209.62",
+    "DESCRIPTION": ""
+  },
+  "PROPERTY_OWNER": {
+    "COMPANY_NAME": "",
+    "FIRST_NAME": "Larry",
+    "THUMBNAIL": "https://www.gravatar.com/avatar/1ee24d63bbe607aea1bb848d5846ae81?d=https%3A%2F%2Fwww%2Ealluradirect%2Ecom%2F%2Fstyles%2Fimages%2Freview%2Dprofile%2Epng",
+    "LAST_NAME": "Ryan",
+    "ID": 314,
+    "IS_COMPANY": false,
+    "EMAIL": "success@hctc.com"
+  },
+  "ID": 499601,
+  "PROPERTY_MANAGER_SERVICE_FEE": {
+    "TAXES": [
+      {
+        "IS_PASS_THROUGH_TO_OWNER": true,
+        "NAME": "GST",
+        "ID": 1,
+        "RATE": 5,
+        "AMOUNT": "0.00"
+      },
+      {
+        "IS_PASS_THROUGH_TO_OWNER": false,
+        "NAME": "PST",
+        "ID": 2,
+        "RATE": 8,
+        "AMOUNT": "0.00"
+      },
+      {
+        "IS_PASS_THROUGH_TO_OWNER": false,
+        "NAME": "MRDT",
+        "ID": 19,
+        "RATE": 3,
+        "AMOUNT": "0.00"
+      }
+    ],
+    "NET": "0.00",
+    "TOTAL": "0.00",
+    "IS_FEE_ON_SUBTOTAL_TO_OWNER": false
+  },
+  "PAYMENT": {
+    "PAID_TO_DATE": "0.00",
+    "AMOUNT_OUTSTANDING": "3434.42",
+    "AMOUNT_REFUNDED": "0.00",
+    "BOOKING_NET": "2780.00",
+    "PRICE_PER_NIGHT": "695.00",
+    "BALANCE": {
+      "DUE_DATE": "2021-12-21",
+      "NET": "2085.00",
+      "TOTAL": "2529.80",
+      "PAYMENT_DATE": ""
+    },
+    "DEPOSIT": {
+      "DUE_DATE": "2021-10-03",
+      "NET": "695.00",
+      "TOTAL": "904.62",
+      "PAYMENT_DATE": "",
+      "PERCENTAGE": 25
+    },
+    "DAMAGE_DEPOSIT": {
+      "MODE": "Damage Upon Departure",
+      "DUE_DATE": "",
+      "IS_COLLECTED": false,
+      "MODE_ID": 4,
+      "AMOUNT": "1000.00"
+    },
+    "BOOKING_GROSS": "3434.42"
+  },
+  "GUEST": {
+    "COMPANY_NAME": "",
+    "MEMBER_SINCE": "2007-11-12",
+    "PERMISSIONS": {
+      "SHOW_NUM_REVIEWS": true,
+      "SHOW_MEMBER_SINCE": true,
+      "SHOW_NUM_RECOMMENDS": true
+    },
+    "NUM_BOOKINGS": 6,
+    "FIRST_NAME": "kerry",
+    "STATUS": "Verified Guest",
+    "THUMBNAIL": "https://www.gravatar.com/avatar/7c70eb673021ab81c6313f4505647460?d=https%3A%2F%2Fwww%2Ealluradirect%2Ecom%2F%2Fstyles%2Fimages%2Freview%2Dprofile%2Epng",
+    "LAST_NAME": "wallace",
+    "ID": 45953,
+    "NUM_RECOMMENDATIONS": 0,
+    "LOGIN": "kerrywallace@telus.net",
+    "NUM_REVIEWS": 0,
+    "PHONE": "16048989895",
+    "IS_COMPANY": false,
+    "CREATED_DATE": "2007-11-12",
+    "USER_TYPE_ID": 3,
+    "ADDRESS": {
+      "RESORT": "",
+      "LONGITUDE": 0,
+      "AREA": "",
+      "COUNTRY": "Canada",
+      "AREA_ID": 0,
+      "POSTAL": "12345",
+      "COUNTRY_CODE": "CA",
+      "STREET_NAME": "aaaa",
+      "DEVELOPMENT_ID": 0,
+      "LATITUDE": 0,
+      "REGION_ID": 1,
+      "ID": 45953,
+      "UNIT": "po",
+      "REGION": "British Columbia",
+      "CITY": "Squamish",
+      "STREET_NUMBER": "Box78",
+      "COUNTRY_ID": 1,
+      "DEVELOPMENT": "",
+      "RESORT_ID": 0
+    },
+    "EMAIL": "kerrywallace@telus.net"
+  }
+}

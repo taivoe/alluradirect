@@ -1,0 +1,12 @@
+node_modules
+lib
+dist
+parcel-bundle-reports
+
+dist/
+.cache/
+.env
+.history
+.npmrc
+.parcel-cache
+.vscode

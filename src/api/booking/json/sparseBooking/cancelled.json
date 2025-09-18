@@ -1,0 +1,149 @@
+{
+  "GUEST_REQUESTS": "",
+  "SURCHARGES": {
+    "NET": "0.00",
+    "TAXES_TOTAL": "0.00"
+  },
+  "TAX": {
+    "TOTAL": "444.80"
+  },
+  "SOURCE": "alluraDirect",
+  "NIGHTS": 4,
+  "GUEST_COMMENT": "",
+  "PROPERTY_RULES": {
+    "CHECK_OUT_TIME": "11:00",
+    "MAX_GUESTS": "22:00",
+    "QUIET_TIME": 8,
+    "CHECK_IN_TIME": "16:00"
+  },
+  "PROPERTY": {
+    "THUMBNAIL_URL": "https://staging.alluradirect.com/images/adi/property/220/ADIP22012_T.JPG?1501107760",
+    "ACCESS_TO_UNIT": {
+      "STANDARD_CODE": "",
+      "CODE": {
+        "NAME": "Unique Per Guest",
+        "ID": 2
+      },
+      "TYPE": {
+        "NAME": "Access Code",
+        "ID": 1
+      },
+      "METHOD": {
+        "NAME": "Email",
+        "ID": 2
+      }
+    },
+    "CODES": {
+      "FRONT_DOOR_CODE": "",
+      "DEVELOPMENT_POOL_CODE": "",
+      "DEVELOPMENT_GYM_CODE": "",
+      "DEVELOPMENT_HOT_TUB_CODE": "",
+      "DEVELOPMENT_STEAM_ROOM_CODE": "",
+      "SKI_LOCKER_CODE": "",
+      "DEVELOPMENT_DOOR_CODE": "",
+      "INTERNET_NETWORK_NAME": "",
+      "BIKE_LOCKER_CODE": "",
+      "PHONE_NUMBER": "",
+      "INTERNET_PASSWORD": "",
+      "DEVELOPMENT_SAUNA_CODE": "",
+      "GAMES_REC_ROOM_CODE": "",
+      "GARBAGE_RECYCLING_CODE": "",
+      "GARAGE_DOOR_CODE": ""
+    },
+    "ID": 220,
+    "ADDRESS": {
+      "RESORT": "Whistler",
+      "STREET_NAME": "Settebello Place",
+      "UNIT": "3",
+      "STREET_NUMBER": "4751",
+      "DEVELOPMENT": "Montebello"
+    }
+  },
+  "NOTES_OWNER": "",
+  "REFERENCE": "220-B-513",
+  "STATUS": {
+    "NAME": "Cancelled",
+    "ID": 4
+  },
+  "FLAGS": {
+    "IS_PAST_DUE": false
+  },
+  "STATUSES": [
+    {
+      "DATE": "2021-10-01",
+      "IS_DONE": true,
+      "LABEL": "Deposit Paid"
+    },
+    {
+      "DATE": "2021-10-01",
+      "IS_DONE": true,
+      "LABEL": "Balance Paid"
+    },
+    {
+      "DATE": "2022-02-04",
+      "IS_DONE": false,
+      "LABEL": "Arrival Date"
+    },
+    {
+      "DATE": "2022-02-08",
+      "IS_DONE": false,
+      "LABEL": "Departure Date"
+    },
+    {
+      "DATE": "--",
+      "IS_DONE": false,
+      "LABEL": "No Review"
+    }
+  ],
+  "ID": 499602,
+  "TOTAL": "3434.42",
+  "DATES": {
+    "ARRIVAL": "2022-02-04",
+    "CHECK_IN_SENT": "2021-10-01",
+    "DEPARTURE": "2022-02-08",
+    "BOOKING": "2021-10-01"
+  },
+  "PARTY_SIZE": {
+    "ADULTS": 1,
+    "KIDS": 0
+  },
+  "CUSTOM_MESSAGE": {
+    "MESSAGE": "",
+    "ENTRY_CODE": ""
+  },
+  "PAYMENT": {
+    "PAID_TO_DATE": "3434.42",
+    "AMOUNT_OUTSTANDING": "0.00",
+    "AMOUNT_REFUNDED": "0.00",
+    "BOOKING_NET": "2780.00",
+    "BALANCE": {
+      "DUE_DATE": "2021-12-21",
+      "NET": "2780.00",
+      "TOTAL": "0.00",
+      "PAYMENT_DATE": "2021-10-01"
+    },
+    "DEPOSIT": {
+      "DUE_DATE": "2021-10-01",
+      "TOTAL": "0.00",
+      "PAYMENT_DATE": "2021-10-01"
+    },
+    "DAMAGE_DEPOSIT": {
+      "MODE": "Damage Upon Departure",
+      "DUE_DATE": "",
+      "IS_COLLECTED": false,
+      "MODE_ID": 4,
+      "AMOUNT": "1000.00"
+    }
+  },
+  "GUEST": {
+    "MEMBER_SINCE": "2007-11-12",
+    "NUM_BOOKINGS": 4,
+    "FIRST_NAME": "kerry",
+    "LAST_NAME": "wallace",
+    "ID": 45953,
+    "NUM_RECOMMENDATIONS": 0,
+    "PHONE": "16048989895",
+    "NUM_REVIEWS": 0,
+    "EMAIL": "kerrywallace@telus.net"
+  }
+}
