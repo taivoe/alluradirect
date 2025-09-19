@@ -1,4 +1,5 @@
 import { FetchMethodTypes, FetchMethods } from '../../apiHooks/types';
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 
 import React from 'react';
 
@@ -35,6 +36,7 @@ export const useQueryContext = () => {
 
 interface Props {
   children: React.ReactNode;
+  queryClient?: QueryClient;
 }
 
 /** This Provider should be wrapped at a high-level around an app that uses it.
@@ -48,7 +50,24 @@ export const QueryContextProvider = ({
   onErrorToast,
   onSuccessToast,
   queryFn,
+  queryClient,
 }: Props & QueryContextValues) => {
+  // Create a default QueryClient if none is provided
+  const defaultQueryClient = React.useMemo(
+    () => new QueryClient({
+      defaultOptions: {
+        queries: {
+          retry: 3,
+          staleTime: 5 * 60 * 1000,
+          refetchOnWindowFocus: false,
+        },
+      },
+    }),
+    []
+  );
+
+  const client = queryClient || defaultQueryClient;
+
   // Since these are functions they will cause re-renders on each app re-render
   // https://dmitripavlutin.com/dont-overuse-react-usecallback/
 
@@ -64,5 +83,9 @@ export const QueryContextProvider = ({
     [isOffline, memoQueryFn, memoErrorToast, memoSuccessToast],
   );
 
-  return <QueryContext.Provider value={value}>{children}</QueryContext.Provider>;
+  return (
+    <QueryClientProvider client={client}>
+      <QueryContext.Provider value={value}>{children}</QueryContext.Provider>
+    </QueryClientProvider>
+  );
 };

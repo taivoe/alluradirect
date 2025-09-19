@@ -1,6 +1,6 @@
 {
-  "name": "@sam778-del/alluradirect",
-  "version": "9.0.0",
+  "name": "@alluradirect/react",
+  "version": "8.0.0",
   "source": "src/index.ts",
   "main": "./lib/main.js",
   "module": "./lib/module.js",
@@ -9,7 +9,7 @@
     "lib"
   ],
   "scripts": {
-    "build:prod": "npm run build && np major",
+    "build:prod": "npm run build",
     "build:prod:patch": "npm run build && np patch",
     "build:prod:minor": "npm run build && np minor",
     "build:prod:major": "npm run build && np major",
@@ -68,7 +68,7 @@
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
-  },
+  }, 
   "repository": {
     "type": "git",
     "url": "git+https://github.com/superpower725/react.git"
